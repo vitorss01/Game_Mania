@@ -11,7 +11,7 @@ header {
   height: 85px;
 }
 
-.conteiner-grid{
+.container-grid{
   width: 1200px;
   height: 100%;
   margin: 0 auto;
@@ -30,18 +30,24 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../img/main/Banner-imagemefundo_sempromocao_.png);
+  background-image: url(../img/main/Espaço\ do\ Banner.png);
+}
+
+.boneco {
+  display: flex;
+  width: 635.35px;
+  max-height: 703.63px;
+  padding-top: 0px;
 }
 
 .promocao{
- display: flex;  
- justify-content: flex-end;
- top: 28px;
-}
+  display: flex;  
+  justify-content: flex-end;
+  align-items: flex-start;
+  top:28px;
+  padding-top: 28px;
+ }
 
-.promoçao{  
-  
-}
 
 
 
