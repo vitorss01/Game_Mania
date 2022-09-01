@@ -30,15 +30,19 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../img/main/Espaço\ do\ Banner.png);
+    background-image: url(../img/main/Espaço\ do\ Banner.png);
+}
+.boneco_banner{
+  position: absolute;
 }
 
-.boneco {
+.boneco_position{
   display: flex;
-  width: 635.35px;
-  max-height: 703.63px;
-  padding-top: 0px;
+  position:relative;
+  left: 300px
+  ;
 }
+
 
 .promocao{
   display: flex;  
