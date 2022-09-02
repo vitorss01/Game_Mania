@@ -19,14 +19,21 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.cabecalho img {
+  border-radius: 8px;
+}
+
 .menu{
   width: 895px;
   display: flex;
   justify-content: space-between;
+  }
+
+.menu img {
+  border-radius: 8px;
 }
 
 .banner {
-  position: absolute;
   height:703.63px;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,18 +57,18 @@ header {
   padding-top: 28px;
  }
 
-.marcasdecomputador{
-  background-color: #F88E26;
+ .marcas_de_computador{
+  background: #F88E26;
   height: 98.76px;
-}
+  }
 
-.marcas_de_computador {
+ .marcas_pc {
+  height: 100%;
   display: flex;
   justify-content: space-between;
-}
+  align-items: center;
+ }
 
 
-
-  
 
 
