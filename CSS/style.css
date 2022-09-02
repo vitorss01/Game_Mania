@@ -26,14 +26,12 @@ header {
 }
 
 .banner {
+  position: absolute;
   height:703.63px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-    background-image: url(../img/main/Espaço\ do\ Banner.png);
-}
-.boneco_banner{
-  position: absolute;
+  background-image: url(../img/main/section_Banner/Espaço\ do\ Banner.png);
 }
 
 .boneco_position{
@@ -52,7 +50,15 @@ header {
   padding-top: 28px;
  }
 
+.marcasdecomputador{
+  background-color: #F88E26;
+  height: 98.76px;
+}
 
+.marcas_de_computador {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
