@@ -15,10 +15,14 @@ header {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
+}
+
+.cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .cabecalho img {
   border-radius: 8px;
 }
@@ -38,24 +42,29 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../img/main/section_Banner/Espaço\ do\ Banner.png);
+  background-image: url(../img/main/01_section_Banner/Espaço\ do\ Banner.png);
 }
 
-.boneco_position{
+.banner_espaco {
   display: flex;
-  position:relative;
-  left: 300px
-  ;
+  justify-content: space-between;
+  position: relative;
+  
 }
 
+.boneco_position {
+  display: flex;
+  margin-left: 250px;
 
-.promocao{
-  display: flex;  
-  justify-content: flex-end;
+}
+
+.promocao_jogo {
+  display: flex;
   align-items: flex-start;
-  top:28px;
-  padding-top: 28px;
- }
+  justify-content: flex-end;
+  padding-top: 28px
+  
+}
 
  .marcas_de_computador{
   background: #F88E26;
@@ -68,6 +77,15 @@ header {
   justify-content: space-between;
   align-items: center;
  }
+
+.categorias_compras {
+  background-image: url(../img/main/03_section_categorias_compras//Gamer\ -\ Fundo\ do\ corpo\ -\ translucido.png);
+  height: 1271px;
+ }
+
+.espaco_dos_produtos { 
+  align-items: flex-start;
+}
 
 
 
