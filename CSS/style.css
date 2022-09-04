@@ -83,9 +83,120 @@ header {
   height: 1271px;
  }
 
+
+
 .espaco_dos_produtos { 
-  align-items: flex-start;
+  background-image: url(../img/main/03_section_categorias_compras/Espaço\ dos\ Produtos.png);
+  height: 725px;
+  background-repeat: no-repeat;
 }
+
+
+
+.espaco_missao {
+  margin-top: 85px;
+  background-image: url(../img/main/03_section_categorias_compras/Espaço\ de\ Missão\ da\ Empresa.png);
+}
+
+.espaco_missao h2 {
+  height: 253px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "roboto";
+  font-size: 25;
+}
+  
+
+
+.inscreva_se_email {
+  margin-top: 85px;
+  height: 119px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/main/03_section_categorias_compras/espaço\ de\ _Cadastrar\ e-mail.png);
+}
+
+.cadastre-se {
+  padding-left: 51px;
+}
+
+.cadastre-se h3 {
+  font-family: "inter";
+  font-size: 30;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.cadastre-se h4 {
+  font-family: "inter";
+  font-size: 20;
+}
+
+.inscreva_se_email h5 {
+  background-color: #D9D9D9;
+  width: 364px;
+  height:44px;
+
+  font-family: "inter";
+  font-size: "25";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity:0.6;
+}
+
+.inscreva_se_email h6 {
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  height: 35px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+.contatos_suporte {
+  background-image: url(../img/main/03_section_categorias_compras/Espaço\ do\ Rodapé\ da\ página.png);  
+  height: 354px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.suporte {
+  font-family: "inter";
+  font-size: 25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seguir_redes_sociais {
+  background-image: url(../img/main/03_section_categorias_compras/Espaço\ para\ seguir\ nas\ redes\ sociais.png);
+  height: 228px;
+}
+
+.redes_sociais {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "inter";
+  font-size: 25px;
+}
+
+.redes_sociais h6 {
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.redes_sociais img {
+  margin-top: 22px;
+}
+
+
 
 
 
